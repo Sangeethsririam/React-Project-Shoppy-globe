@@ -1,0 +1,81 @@
+.header {
+  background-color: #222831;
+  color: #fff;
+  padding: 1.6rem 2rem; 
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #00adb5;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  outline: none;
+  width: 170px;
+}
+
+.search-bar button {
+  padding: 0.4rem 0.8rem;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  background-color: #00adb5;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #028891;
+}
+.cart-link {
+  position: relative;
+}
+
+.cart-indicator {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  background: red;
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
