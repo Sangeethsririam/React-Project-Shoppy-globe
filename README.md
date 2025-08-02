@@ -46,3 +46,15 @@ shoppy-globe/
 
 how to run open this folder
 open the terminal type npm run dev
+
+pushing to git
+
+cd "C:\Users\sange\Desktop\React Project\shoppy-globe"
+
+git init
+git add .
+git commit -m "Initial commit - ShoppyGlobe React project"
+
+git remote add origin https://github.com/Sangeethsririam/React-Project-Shoppy-globe.git
+git branch -M main
+git push -u origin main
